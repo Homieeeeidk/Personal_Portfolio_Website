@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import './contact.css';
 
 import FacebookIcon from '../../assets/linkedin.png';
+import gitIcon from '../../assets/git.png';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -41,6 +42,7 @@ const Contact = () => {
                     <span className="contactDesc1">Check out my <b>LinkedIn</b> profile: </span>
                     <div className="links">
                             <a href="https://www.linkedin.com/in/homayoun-elyasi"  target="_blank"><img src={FacebookIcon} alt="Facebook" className="link"/></a>
+                            <a href="https://github.com/Homieeeeidk"  target="_blank"><img src={gitIcon} alt="Facebook" className="link"/></a>
                     </div>
                 </form>
             </div>
